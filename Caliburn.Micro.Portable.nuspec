@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+	<id>Caliburn.Micro.Portable</id>
+	<version>1.0.0-alpha01</version>
+	<authors>Gordon Watts</authors>
+	<owners>Gordon Watts</owners>
+	<licenseUrl>https://github.com/gordonwatts/CERNSSO/blob/master/license.txt</licenseUrl>
+	<projectUrl>https://github.com/gordonwatts/CERNSSO</projectUrl>
+	<requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<description>Somethings in Caliburn.Micro should be accessible from the PCL, but aren't yet.</description>
+	<releaseNotes>First release</releaseNotes>
+	<copyright>Copyright 2013</copyright>
+	<tags>Caliburn.Micro PCL</tags>
+	<dependencies>
+		<group>
+		  <dependency id="Caliburn.Micro" version="2.0.0-rc" />
+		</group>
+
+		<group targetFramework="portable-net45+windowsphone8+WinRT45">
+		  <dependency id="Caliburn.Micro.Core" version="2.0.0-rc" />
+		</group>
+	</dependencies>
+  </metadata>
+  <files>
+	<file src = "Caliburn.Micro.Portable\bin\Release\Caliburn.Micro.Portable.dll" target="lib\portable-net45+windowsphone8+WinRT45"/>
+
+	<file src = "Caliburn.Micro.Portable\bin\Release\Caliburn.Micro.Portable.dll" target="lib\windowsphone8"/>
+	<file src = "Caliburn.Micro.Portable.WP8\bin\Release\Caliburn.Micro.Portable.WP8.dll" target="lib\windowsphone8"/>
+
+	<file src = "Caliburn.Micro.Portable\bin\Release\Caliburn.Micro.Portable.dll" target="lib\WinRT451"/>
+	<file src = "Caliburn.Micro.Portable.WS\bin\Release\Caliburn.Micro.Portable.WS.dll" target="lib\WinRT451"/>
+  </files>
+</package>
