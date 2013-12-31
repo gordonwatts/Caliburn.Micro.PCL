@@ -2,7 +2,7 @@
 <package >
   <metadata>
 	<id>Caliburn.Micro.Portable</id>
-	<version>1.0.0-alpha02</version>
+	<version>1.0.0-alpha03</version>
 	<authors>Gordon Watts</authors>
 	<owners>Gordon Watts</owners>
 	<licenseUrl>https://github.com/gordonwatts/CERNSSO/blob/master/license.txt</licenseUrl>
@@ -23,12 +23,17 @@
 	</dependencies>
   </metadata>
   <files>
-	<file src = "Caliburn.Micro.Portable\bin\Release\Caliburn.Micro.Portable.dll" target="lib\portable-net45+windowsphone8+WinRT45"/>
+	  <file src = "Caliburn.Micro.Portable\bin\Release\Caliburn.Micro.Portable.dll" target="lib\portable-net45+windowsphone8+WinRT45"/>
+	  <file src = "Caliburn.Micro.Portable\bin\Release\Caliburn.Micro.Portable.xml" target="lib\portable-net45+windowsphone8+WinRT45"/>
 
-	<file src = "Caliburn.Micro.Portable\bin\Release\Caliburn.Micro.Portable.dll" target="lib\windowsphone8"/>
-	<file src = "Caliburn.Micro.Portable.WP8\bin\Release\Caliburn.Micro.Portable.WP8.dll" target="lib\windowsphone8"/>
+	  <file src = "Caliburn.Micro.Portable\bin\Release\Caliburn.Micro.Portable.dll" target="lib\windowsphone8"/>
+	  <file src = "Caliburn.Micro.Portable\bin\Release\Caliburn.Micro.Portable.xml" target="lib\windowsphone8"/>
+	  <file src = "Caliburn.Micro.Portable.WP8\bin\Release\Caliburn.Micro.Portable.WP8.dll" target="lib\windowsphone8"/>
+	  <file src = "Caliburn.Micro.Portable.WP8\bin\Release\Caliburn.Micro.Portable.WP8.xml" target="lib\windowsphone8"/>
 
-	<file src = "Caliburn.Micro.Portable\bin\Release\Caliburn.Micro.Portable.dll" target="lib\WinRT451"/>
-	<file src = "Caliburn.Micro.Portable.WS\bin\Release\Caliburn.Micro.Portable.WS.dll" target="lib\WinRT451"/>
+	  <file src = "Caliburn.Micro.Portable\bin\Release\Caliburn.Micro.Portable.dll" target="lib\WinRT451"/>
+	  <file src = "Caliburn.Micro.Portable\bin\Release\Caliburn.Micro.Portable.xml" target="lib\WinRT451"/>
+	  <file src = "Caliburn.Micro.Portable.WS\bin\Release\Caliburn.Micro.Portable.WS.dll" target="lib\WinRT451"/>
+	  <file src = "Caliburn.Micro.Portable.WS\bin\Release\Caliburn.Micro.Portable.WS.xml" target="lib\WinRT451"/>
   </files>
 </package>

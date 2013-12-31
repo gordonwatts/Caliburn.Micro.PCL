@@ -1,6 +1,10 @@
 ﻿
 namespace Caliburn.Micro.Portable.WP8
 {
+    /// <summary>
+    /// The Windows Phone 8 version of the navigation wrapper. Create this to hold onto
+    /// Calibrun.Micro's INavigationService so it can be used in a PCL.
+    /// </summary>
     public class NavService : INavService
     {
         /// <summary>
@@ -8,6 +12,10 @@ namespace Caliburn.Micro.Portable.WP8
         /// </summary>
         private readonly INavigationService _nav;
 
+        /// <summary>
+        /// Create a new portable navigation service wrapping the provided navigation service.
+        /// </summary>
+        /// <param name="nav">The navigation service from the WP8 Calibrun.Micro run.</param>
         public NavService(INavigationService nav)
         {
             _nav = nav;
