@@ -24,7 +24,7 @@ namespace Caliburn.Micro.Portable.WS
         /// Move to the proper spot.
         /// </summary>
         /// <typeparam name="T">Type of the view model to open</typeparam>
-        public void DisplayViewModelFor<T>()
+        public void NavigateToViewModel<T>()
         {
             _nav.NavigateToViewModel<T>();
         }

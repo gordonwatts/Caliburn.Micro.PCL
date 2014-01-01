@@ -25,7 +25,7 @@ namespace Caliburn.Micro.Portable.WP8
         /// Move to a new model view
         /// </summary>
         /// <typeparam name="T"></typeparam>
-        public void DisplayViewModelFor<T>()
+        public void NavigateToViewModel<T>()
         {
             _nav
                 .UriFor<T>()

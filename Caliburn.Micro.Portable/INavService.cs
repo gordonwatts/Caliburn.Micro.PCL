@@ -10,6 +10,6 @@ namespace Caliburn.Micro.Portable
         /// Switch to a new view model.
         /// </summary>
         /// <typeparam name="T"></typeparam>
-        void DisplayViewModelFor<T>();
+        void NavigateToViewModel<T>();
     }
 }
