@@ -2,7 +2,7 @@
 <package >
   <metadata>
 	<id>Caliburn.Micro.Portable</id>
-	<version>1.0.0-alpha04</version>
+	<version>1.0.0-alpha05</version>
 	<authors>Gordon Watts</authors>
 	<owners>Gordon Watts</owners>
 	<licenseUrl>https://github.com/gordonwatts/CERNSSO/blob/master/license.txt</licenseUrl>

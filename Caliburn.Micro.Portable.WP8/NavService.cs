@@ -1,4 +1,5 @@
 ﻿
+using System;
 namespace Caliburn.Micro.Portable.WP8
 {
     /// <summary>
@@ -30,6 +31,32 @@ namespace Caliburn.Micro.Portable.WP8
             _nav
                 .UriFor<T>()
                 .Navigate();
+        }
+
+        /// <summary>
+        /// Given a WP8 version of the navigation service, register this facade in the container
+        /// so others can make easy use of it.
+        /// </summary>
+        /// <param name="service">The WinRT Navigation Service</param>
+        /// <param name="container">The main container for CM</param>
+        public static void RegisterINavService(INavigationService service, PhoneContainer container)
+        {
+            var mynav = new NavService(service);
+            container.RegisterInstance(typeof(INavService), null, mynav);
+        }
+
+        /// <summary>
+        /// Register a WP8 version of the INavigateService as one of our portable INavService
+        /// objects. We fetch the INavigateService object from the container. Normally in a WP8
+        /// Caliburn.Micro app, it is already stored in there.
+        /// </summary>
+        /// <param name="container"></param>
+        public static void RegisterINavService(PhoneContainer container)
+        {
+            var nav = container.GetInstance<INavigationService>();
+            if (nav == null)
+                throw new ArgumentNullException("Unable to find an INavigationService");
+            RegisterINavService(nav, container);
         }
     }
 }
