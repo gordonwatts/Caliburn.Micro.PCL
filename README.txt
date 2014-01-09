@@ -18,5 +18,6 @@ What is in here:
 Generating A Release:
 
 1) Make sure to bump the version number in the nuspec file.
-2) nuget pack -symbols .\Caliburn.Micro.Portable.nuspec
-3) nuget push .\Caliburn.Micro.Portable.1.0.0-alpha05.nupkg -source https://xxx -apikey XXX
+2) Make sure to build release
+3) nuget pack -symbols .\Caliburn.Micro.Portable.nuspec
+4) nuget push .\Caliburn.Micro.Portable.1.0.0-alpha05.nupkg -source https://xxx -apikey XXX

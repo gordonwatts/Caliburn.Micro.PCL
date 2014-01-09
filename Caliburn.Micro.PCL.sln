@@ -17,6 +17,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{11F6ADA3-65E2-42B1-98CC-97B4DE0526BD}"
 	ProjectSection(SolutionItems) = preProject
 		Caliburn.Micro.Portable.nuspec = Caliburn.Micro.Portable.nuspec
+		README.txt = README.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caliburn.Micro.Portable", "Caliburn.Micro.Portable\Caliburn.Micro.Portable.csproj", "{E7147BE1-42F2-46A4-9FA1-8133F515BFEF}"
