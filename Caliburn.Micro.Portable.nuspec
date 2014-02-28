@@ -2,14 +2,14 @@
 <package >
   <metadata>
 	<id>Caliburn.Micro.Portable</id>
-	<version>1.0.0-alpha06</version>
+	<version>1.0.0-alpha07</version>
 	<authors>Gordon Watts</authors>
 	<owners>Gordon Watts</owners>
 	<licenseUrl>https://github.com/gordonwatts/CERNSSO/blob/master/license.txt</licenseUrl>
 	<projectUrl>https://github.com/gordonwatts/CERNSSO</projectUrl>
 	<requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<description>Somethings in Caliburn.Micro should be accessible from the PCL, but aren't yet.</description>
-	<releaseNotes>Added NavService registration for WP8</releaseNotes>
+	<releaseNotes>Update to use the beta of Caliburn.Micro-2.0.0</releaseNotes>
 	<copyright>Copyright 2013</copyright>
 	<tags>Caliburn.Micro PCL</tags>
 	<dependencies>

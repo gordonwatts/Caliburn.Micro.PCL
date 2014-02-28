@@ -115,30 +115,30 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Caliburn.Micro">
-      <HintPath>..\packages\Caliburn.Micro.Core.2.0.0-rc\lib\portable-net45+sl5+win8+wp8\Caliburn.Micro.dll</HintPath>
-    </Reference>
-    <Reference Include="Caliburn.Micro.Extensions">
-      <HintPath>..\packages\Caliburn.Micro.2.0.0-rc\lib\win81\Caliburn.Micro.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="Caliburn.Micro.Platform">
-      <HintPath>..\packages\Caliburn.Micro.2.0.0-rc\lib\win81\Caliburn.Micro.Platform.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Xaml.Interactions">
-      <HintPath>..\packages\Caliburn.Micro.2.0.0-rc\lib\win81\Microsoft.Xaml.Interactions.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Xaml.Interactivity">
-      <HintPath>..\packages\Caliburn.Micro.2.0.0-rc\lib\win81\Microsoft.Xaml.Interactivity.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Caliburn.Micro.Portable\Caliburn.Micro.Portable.csproj">
       <Project>{e7147be1-42f2-46a4-9fa1-8133f515bfef}</Project>
       <Name>Caliburn.Micro.Portable</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Caliburn.Micro">
+      <HintPath>..\packages\Caliburn.Micro.Core.2.0.0-beta\lib\portable-net45+sl5+win8+wp8\Caliburn.Micro.dll</HintPath>
+    </Reference>
+    <Reference Include="Caliburn.Micro.Extensions">
+      <HintPath>..\packages\Caliburn.Micro.2.0.0-beta\lib\win81\Caliburn.Micro.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Caliburn.Micro.Platform">
+      <HintPath>..\packages\Caliburn.Micro.2.0.0-beta\lib\win81\Caliburn.Micro.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xaml.Interactions">
+      <HintPath>..\packages\Caliburn.Micro.2.0.0-beta\lib\win81\Microsoft.Xaml.Interactions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xaml.Interactivity">
+      <HintPath>..\packages\Caliburn.Micro.2.0.0-beta\lib\win81\Microsoft.Xaml.Interactivity.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
     <VisualStudioVersion>12.0</VisualStudioVersion>

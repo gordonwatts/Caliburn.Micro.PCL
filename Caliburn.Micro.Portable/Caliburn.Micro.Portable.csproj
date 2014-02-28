@@ -43,7 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Caliburn.Micro">
-      <HintPath>..\packages\Caliburn.Micro.Core.2.0.0-rc\lib\portable-net45+sl5+win8+wp8\Caliburn.Micro.dll</HintPath>
+      <HintPath>..\packages\Caliburn.Micro.Core.2.0.0-beta\lib\portable-net45+sl5+win8+wp8\Caliburn.Micro.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
