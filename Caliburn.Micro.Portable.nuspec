@@ -2,7 +2,7 @@
 <package >
   <metadata>
 	<id>Caliburn.Micro.Portable</id>
-	<version>1.0.0-alpha07</version>
+	<version>1.0.0-alpha08</version>
 	<authors>Gordon Watts</authors>
 	<owners>Gordon Watts</owners>
 	<licenseUrl>https://github.com/gordonwatts/CERNSSO/blob/master/license.txt</licenseUrl>
@@ -14,11 +14,11 @@
 	<tags>Caliburn.Micro PCL</tags>
 	<dependencies>
 		<group>
-		  <dependency id="Caliburn.Micro" version="2.0.0-rc" />
+		  <dependency id="Caliburn.Micro" version="2.0.0-beta" />
 		</group>
 
 		<group targetFramework="portable-net45+windowsphone8+WinRT45">
-		  <dependency id="Caliburn.Micro.Core" version="2.0.0-rc" />
+		  <dependency id="Caliburn.Micro.Core" version="2.0.0-beta" />
 		</group>
 	</dependencies>
   </metadata>
