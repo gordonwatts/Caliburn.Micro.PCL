@@ -58,5 +58,21 @@ namespace Caliburn.Micro.Portable.WP8
                 throw new ArgumentNullException("Unable to find an INavigationService");
             RegisterINavService(nav, container);
         }
+
+        /// <summary>
+        /// Return true if we are allowed to go back by one
+        /// </summary>
+        public bool CanGoBack
+        {
+            get { return _nav.CanGoBack; }
+        }
+
+        /// <summary>
+        /// Actually navagate back to the last view model
+        /// </summary>
+        public void GoBack()
+        {
+            _nav.GoBack();
+        }
     }
 }

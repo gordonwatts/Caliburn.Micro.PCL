@@ -40,5 +40,21 @@ namespace Caliburn.Micro.Portable.WS
             var mynav = new NavService(service);
             container.RegisterInstance(typeof(INavService), null, mynav);
         }
+
+        /// <summary>
+        /// True if we are allowed to go back by one.
+        /// </summary>
+        public bool CanGoBack
+        {
+            get { return _nav.CanGoBack; }
+        }
+
+        /// <summary>
+        /// Go back one page
+        /// </summary>
+        public void GoBack()
+        {
+            _nav.GoBack();
+        }
     }
 }
