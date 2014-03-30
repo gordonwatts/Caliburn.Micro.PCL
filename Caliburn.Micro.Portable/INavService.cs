@@ -13,6 +13,14 @@ namespace Caliburn.Micro.Portable
         void NavigateToViewModel<T>();
 
         /// <summary>
+        /// Return a Uri builder for a more complex view model request
+        /// (e.g. with parameters).
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <returns></returns>
+        INavUriBuilder<T> UriForViewModel<T>();
+
+        /// <summary>
         /// Returns true if we can go back a page
         /// </summary>
         bool CanGoBack { get; }

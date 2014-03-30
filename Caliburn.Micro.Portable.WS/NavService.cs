@@ -32,6 +32,16 @@ namespace Caliburn.Micro.Portable.WS
         }
 
         /// <summary>
+        /// Return a new uri builder for this navigation service
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <returns></returns>
+        public INavUriBuilder<T> UriForViewModel<T>()
+        {
+            return new NavUriBuilder<T>(_nav.UriFor<T>());
+        }
+
+        /// <summary>
         /// Given a WinRT version of the navigation service, register this facade in the container
         /// so others can make easy use of it.
         /// </summary>

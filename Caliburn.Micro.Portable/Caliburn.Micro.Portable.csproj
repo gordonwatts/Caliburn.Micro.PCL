@@ -38,6 +38,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="INavService.cs" />
+    <Compile Include="INavUriBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PropertyChangedBaseUtils.cs" />
   </ItemGroup>
